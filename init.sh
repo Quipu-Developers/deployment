@@ -7,8 +7,6 @@ echo "apt-get을 설정합니다."
 apt-get update
 apt-get upgrade
 
-echo "git을 설치합니다."
-apt install git
 
 echo "docker를 설치합니다."
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -19,4 +17,4 @@ systemctl enable docker
 
 # 라즈베리파이 OS에서는 pip3를 기본적으로 제공한다.
 echo "docker-compose 설치"
-pip3 install docker-compose
+apt-get install docker-compose
