@@ -7,6 +7,8 @@ echo "apt-get을 설정합니다."
 apt-get update
 apt-get upgrade
 
+# uos 고정 IP 설정
+# uos DNS 추가
 
 echo "docker를 설치합니다."
 curl -fsSL https://get.docker.com -o get-docker.sh
